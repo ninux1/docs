@@ -1,5 +1,5 @@
-feature:install odl-openflowplugin-flow-services-rest
-feature:install odl-openflowplugin-flow-services-ui
+-- feature:install odl-openflowplugin-flow-services-rest
+-- feature:install odl-openflowplugin-flow-services-ui
 feature:install odl-restconf-all
 feature:install odl-mdsal-all
 feature:install odl-l2switch-switch
