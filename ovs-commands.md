@@ -15,3 +15,24 @@
 * sudo ovs-vsctl add-port switch veth1
 * sudo ovs-vsctl add-port switch veth3
 * sudo ovs-vsctl del-port switch veth3
+* sudo ovs-ofctl -O Openflow13 add-flow vbr priority=500,in_port=2,actions=output:3
+* sudo ovs-ofctl -O Openflow13 add-flow vbr priority=500,in_port=3,actions=output:2
+* sudo ovs-ofctl -O Openflow13 add-flow vbr priority=32768,action=drop
+* sudo ovs-ofctl -O Openflow13 dump-flows vbr
+* sudo ovs-ofctl -O Openflow13 show vbr 
+* sudo ovs-vsctl set bridge vbr protocols=OpenFlow13
+* sudo ovs-vsctl set-controller vbr tcp:192.168.56.102:6633
+* sudo ovs-vsctl set-controller vbr connection-mode=out-of-band
+* sudo ovs-vsctl del-controller vbr
+* -------------------------------------------------------------
+* sudo modprobe openvswitch
+* sudo ovsdb-server --remote=punix:/usr/local/var/run/openvswitch/db.sock --remote=db:Open_vSwitch,Open_vSwitch,manager_options --private-key=db:Open_vSwitch,SSL,private_key --certificate=db:Open_vSwitch,SSL,certificate --bootstrap-ca-cert=db:Open_vSwitch,SSL,ca_cert --pidfile --detach --log-file
+* sudo ovs-vsctl --no-wait init
+* sudo ovs-vswitchd --pidfile --detach --log-file
+* -------------------------------------------------------------
+
+
+
+
+
+
