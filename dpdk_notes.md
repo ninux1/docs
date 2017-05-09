@@ -12,4 +12,6 @@ Set processor core affinity so that it gets the dedicated core for packet recept
 
 DPDK is a set of userspace software libraries.
 
+Network device drivers for NICs supported in DPDK run in Linux userspace. They are also know as Poll Mode Drivers. PMD.
+
 
