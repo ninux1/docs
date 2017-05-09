@@ -10,4 +10,6 @@ Packet processing thread is given exclusive access to the cpu core so that it ca
 
 Set processor core affinity so that it gets the dedicated core for packet reception OR Pakcet transmit.
 
+DPDK is a set of userspace software libraries.
+
 
