@@ -15,3 +15,13 @@ DPDK is a set of userspace software libraries.
 Network device drivers for NICs supported in DPDK run in Linux userspace. They are also known as Poll Mode Drivers. PMD.
 
 
+Below optimization technologies/primitives are used for Intel DPDK on Intel Arch.
+1) Hugepages
+2) PreFetching/Software prefetching
+3) Intel DDIO Direct Data I/O
+4) Cache Alignment
+5) New 
+6) Memory interleave
+7) pthreads and affinity
+8) NUMA
+9) Memory channel Use
