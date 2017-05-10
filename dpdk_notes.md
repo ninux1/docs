@@ -25,3 +25,8 @@ Below optimization technologies/primitives are used for Intel DPDK on Intel Arch
 7) pthreads and affinity
 8) NUMA
 9) Memory channel Use
+
+
+DPDK libraries
+1) librte_eal   = initializes pci, other hardware , os features environment variables.
+2) 
