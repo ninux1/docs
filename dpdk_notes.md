@@ -35,3 +35,11 @@ DPDK models
 2) Pipeline
 
 In run to completion I/O as well as application consuming those packets happen on single core however in the pipeline model the I/O happens on one core and those packets are then passed to the application running on a different core via ring buffers.   
+
+Other parameters to consider for using DPDK in your architecture.
+1) NUMA considerations, DPDK is NUMA aware. What memory are we using. Layouts.
+2) Caching considerations, Cache miss is costly.
+3) Transition look aside buffers, TLB is the cache of the page tables which are basically virtual to physical address mapping. So TLB caches the virt memory to physical memory page tables.
+4) TLB misses are very costly.
+
+
