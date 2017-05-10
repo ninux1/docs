@@ -48,11 +48,4 @@ Other parameters to consider for using DPDK in your architecture.
 8) Alleviate the above scenario by using the Linux Huge pages.
 9) Probability for finding a page address is higher in Huge pages than the smaller TLB's. i.e higher the huge page size, higher the probability of finding the page table address.
 10) Better is to set the huge pages at the boot time.
-
-
-
-
-
-
-
-
+11) rte_malloc is not lock free and should not be used in the data path i.e packet I/O
