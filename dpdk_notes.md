@@ -41,5 +41,18 @@ Other parameters to consider for using DPDK in your architecture.
 2) Caching considerations, Cache miss is costly.
 3) Transition look aside buffers, TLB is the cache of the page tables which are basically virtual to physical address mapping. So TLB caches the virt memory to physical memory page tables.
 4) TLB misses are very costly.
+5) Mapping of Virtual to physical memory = page table entry.
+6) Multiple page table entries form page tables.
+6) TLB is a cache for page tables.
+7) If data is found in TLB its TLB hits else its a TLB miss which is nothing but a whole page walk which hits performance.
+8) Alleviate the above scenario by using the Linux Huge pages.
+9) Probability for finding a page address is higher in Huge pages than the smaller TLB's. i.e higher the huge page size, higher the probability of finding the page table address.
+10) Better is to set the huge pages at the boot time.
+
+
+
+
+
+
 
 
