@@ -28,7 +28,8 @@ Below optimization technologies/primitives are used for Intel DPDK on Intel Arch
 
 
 DPDK libraries
-1) librte_eal   = initializes pci, other hardware , os features environment variables.
+1) librte_eal   = initializes pci, other hardware , os features environment variables. in kernel rte_eal_init initializes the EAL and allocates the memory from huge pages.
+rte_mempool_create , creates the pool of mem bufs to hold the packet data.
 
 DPDK models
 1) Run to completion 
