@@ -29,4 +29,9 @@ Below optimization technologies/primitives are used for Intel DPDK on Intel Arch
 
 DPDK libraries
 1) librte_eal   = initializes pci, other hardware , os features environment variables.
-2) 
+
+DPDK models
+1) Run to completion 
+2) Pipeline
+
+In run to completion I/O as well as application consuming those packets happen on single core however in the pipeline model the I/O happens on one core and those packets are then passed to the application running on a different core via ring buffers.   
