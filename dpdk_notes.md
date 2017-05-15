@@ -14,6 +14,7 @@ DPDK is a set of userspace software libraries.
 
 Network device drivers for NICs supported in DPDK run in Linux userspace. They are also known as Poll Mode Drivers. PMD.
 
+IGB_UIO = Kernel module to which the hardware binds instead of normal network driver.
 
 Below optimization technologies/primitives are used for Intel DPDK on Intel Arch.
 1) Hugepages
