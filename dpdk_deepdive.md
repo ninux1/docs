@@ -5,4 +5,4 @@ In DPDK
 3) Kernel scheduler is replaced by CPU pinning/pthread affinity.
 4) Huge pages are used in place of 4K paging.
 5) using lockless intercore communication.
-6) 
+6) Highthroughput bulkmode I/O calls.
