@@ -7,3 +7,4 @@ Three-tier DCN Topology :
 
 Major problems faced by the three-tier architecture:
 * scalability, fault tolerance, energy efficiency, and cross-sectional bandwidth.
+* The three-tier architecture uses enterprise-level network devices at the higher layers of topology that are very expensive and power hungry
