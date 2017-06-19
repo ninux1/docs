@@ -19,3 +19,4 @@ Extended Requirements
 * Analytics : How many times the redirection happend.
 * This service should also expose rest endpoint, to be usable by other services.
 
+Define the API's After the requirements.
