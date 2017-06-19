@@ -23,6 +23,7 @@ Database reqs.
 * Storing huge number of records.
 * Distributed since we need it for billions of records.
 * Dynamo Or cassandra a good choice ?
+* Need 2 tables --> original url to short url mapping and second user details.
 
 Define the API's after the requirements.
 create_url
