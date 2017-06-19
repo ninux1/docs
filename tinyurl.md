@@ -17,5 +17,5 @@ Non Functional reqs.
 
 Extended Requirements 
 * Analytics : How many times the redirection happend.
-* This service should also expose rest endpoint, to be usable to 
+* This service should also expose rest endpoint, to be usable by other services.
 
