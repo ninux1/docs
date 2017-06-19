@@ -13,6 +13,7 @@ Non Functional reqs.
 * Load balancing should be there with replication.
 * Database to store shortened url to full url.
 * Will use Hash to search and locate url's for redirection.
+* Implement caching for performance
 
 Extended Requirements 
 * Analytics : How many times the redirection happend.
