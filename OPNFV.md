@@ -8,4 +8,5 @@
 * NFV layers can be visualized as NFVi, VNF's and MANO
 * Old Paradigm is Pets infrastructure where each component needs to be cared for, for availability , failure etc. 
 * New Paradigm is cattle infrastructure where there are multiple instances which come and go and there is a constant availability of the service. This is instance based like vcpus and vistualized hardware etc.
+* Cloud native apps scale by increasing the number of instances rather than adding more resources to a given instance.
 
