@@ -5,4 +5,5 @@
 * Which means basically we should close the price performance gap between NFVi and hardware network functions.  
 * Also there should be some way to check the VNf's launched on NFVi are genuine. Intel trusted execution can be utilized here.
 * Key NFV requirements are security , interoperability, performance etc.
+* NFV layers can be visualized as NFVi, VNF's and MANO
 
